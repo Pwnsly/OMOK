@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>오목 게임</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f0f0;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            text-align: center;
+            background-color: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            margin-top: 50px;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 40px;
+            font-size: 2.5em;
+        }
+
+        .menu-buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .menu-button {
+            padding: 15px 40px;
+            font-size: 1.2em;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: transform 0.2s, background-color 0.2s;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .menu-button:hover {
+            background-color: #45a049;
+            transform: scale(1.05);
+        }
+
+        .description {
+            margin-top: 30px;
+            color: #666;
+            font-size: 0.9em;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>오목 게임</h1>
+        <div class="menu-buttons">
+            <a href="normal_omok.html" class="menu-button">일반 오목</a>
+            <a href="index.html" class="menu-button">블라인드 오목</a>
+        </div>
+        <div class="description">
+            <p>일반 오목: 전통적인 오목 게임입니다. AI와 대결하며 승리를 향해 도전하세요!</p>
+            <p>도전! 블라인드 오목: 돌의 색상을 보지 않고 진행하는 특별한 오목 게임입니다. 당신의 기억력과 전략을 시험해보세요!</p>
+        </div>
+    </div>
+</body>
+</html> 
