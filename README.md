@@ -1,1 +1,2 @@
 # OMOK
+start : main.html
